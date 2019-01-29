@@ -5,12 +5,13 @@ This is a blog application made using Python's Django framework. Users can view,
 
 Finally there is an email-based password reset functionality. 
 
-For security reasons, the email address and the password of the author, which were used in development, have been omitted. To enable this functionality, simply go to django_project/credentials.py and fill in the variables with a valid Gmail account and 2-step authentification password.
+For obvious security reasons, the email address and the password of the author, which were used in development, have been omitted. To enable this functionality, simply go to django_project/credentials.py and fill in the variables with a valid Gmail account and 2-step authentification password.
 
 Run the following commands to get started:
 
 ```json
 virtualenv env
+source env/bin/activate
 pip install -r requirements.txt
 python manage.py runserver
 ```
